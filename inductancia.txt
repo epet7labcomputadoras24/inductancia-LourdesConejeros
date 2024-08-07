@@ -1,0 +1,21 @@
+﻿Imports Microsoft.VisualBasic
+
+Public Class Class1
+    Module Program
+        Sub Main(args As String())
+            Dim F As Single
+            Dim I As Single
+            Dim XL As Single
+            Dim impedancia As Single
+            Console.Write("ingrese el valor de la frecuencia (F): ")
+            F = Console.ReadLine()
+            Console.Write("ingrese el valor de inductancia (I): ")
+            I = Console.ReadLine()
+            impedancia = 2 * XL PI +F+I
+            Console.WriteLine("la impedancia inductiva es:" & impedancia)
+
+
+        End Sub
+    End Module
+
+End Class
